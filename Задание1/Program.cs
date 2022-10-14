@@ -18,3 +18,13 @@ for (int j = 0; j < size; j++)
         count++;
     }
 }
+Console.WriteLine();
+PrintArray(array2);
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
