@@ -10,3 +10,11 @@ for (int i = 0; i < size; i++)
 string[] array2 = new string[size];
 int num = 3;
 int count = 0;
+for (int j = 0; j < size; j++)
+{
+    if (array1[j].Length <= num)
+    {
+        array2[count] = array1[j];
+        count++;
+    }
+}
